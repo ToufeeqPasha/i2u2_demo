@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>I2u2 Registration Successfull </title>
+	<meta name="description" content="">
+	<meta name="author" content="pasha">
+	<meta http-equiv="refresh" content="60">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">    
+
+   <!-- Script
+   ================================================== -->
+	
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+	
+	<?php
+	echo "Hi welcome!";
+	
+	
+	?>	
+
+
+	<!--<div id="preloader">      
+      <div id="status">
+         <img src="images/preloader.gif" height="64" width="64" alt="">
+      </div>
+   </div>-->
+
+   <!-- Intro Section
+   ================================================== -->
+   <section id="intro">
+
+   	<header class="row">	 
+
+			<div id="logo" >
+				<a href="#" >
+                 <img src="images/mylogo.jpg" alt="I2U2">                  
+              </a>					
+			</div>
+
+		   
+
+   	</header> <!-- Header End -->   	
+
+   	<div  id="main" class="row">
+
+	   	<div class="twelve columns">
+	   			
+	   		<h1>Registration Successfull!!</h1>
+			
+	   		<h4>Thank You!</h4> 			
+   			</div>	
+		<p id="p1">All our robots are currently controlling by others, Below button will be activated once our robot is free</p>
+		<button type="button" id="startButton" onclick="startConnection()" disabled>Start Controlling</button>	
+		
+         </div> 
+		 
+		 
+
+        	
+
+   </section> <!-- end intro section -->
+
+
+  
+
+   <!-- Java Script
+   ================================================== -->
+   <script>
+   function startConnection(){
+   //document.getElementById("p1").innerHTML = "New text!";
+   window.location='remotecontrol.html';//this page is our connection page
+   };
+   </script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>	
+   
+   
+   <script src="js/jquery.placeholder.js"></script>
+   
+   <script src="js/init.js"></script>
+   
+</body>
+
+</html>

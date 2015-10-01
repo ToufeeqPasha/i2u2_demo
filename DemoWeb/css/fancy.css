@@ -1,0 +1,300 @@
+
+body,html {
+  padding: 5px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(white-circles-blue-background.jpg); 
+  background-size:cover;
+  color: #444;
+  font-size: 15px;
+  line-height: 18px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+}
+.connection {
+  float: left;
+  height: 250px;
+  width: 200px;
+  overflow: scroll;
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+.connection div {
+  margin: 5px 0;
+}
+.connection.active {
+  border-color: #FF7500;
+}
+h1 {
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0 -10px 0 -10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 300;
+}
+.active h1 strong {
+  color: #FF7500;
+}
+.file, em {
+  color: #999;
+  font-style: italic;
+}
+#wrap {
+  background-color: #ddd;
+  border-width: 1px 0;
+  border-color: #ccc;
+  border-style: solid;
+}
+.clear {
+  clear: both;
+}
+.peer {
+  color: #FF7500;
+  font-weight: 600;
+}
+.you {
+  color: #0C6BA1;
+  font-weight: 600;
+}
+#pid {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #0C6BA1;
+  font-weight: 600;
+}
+.warning {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+  font-weight: 300;
+  border-width: 1px 0;
+  border-color: #000;
+  border-style: solid;
+}
+a {
+  color: #F2C777;
+}
+.filler {
+  display: block;
+  padding: 10px;
+}
+#actions {
+  padding: 10px;
+}
+
+button, input {
+  font-size: 15px;
+  font-family: Arial;
+  border: 1px solid #ccc;
+  border-right: 0;
+  padding: 5px;
+  background: #fff;
+  margin: 0;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+}
+input:focus {
+  outline: none;
+}
+.button, button {
+  cursor: pointer;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+
+
+}
+form {
+  display: inline-block;
+}
+#close {
+  background-color: #FF7500;
+  border-color: #c15c06;
+}
+
+.important {
+  font-size: 15px;
+  color: #F2C777;
+  margin-bottom: 10px;
+}
+
+ #credentials, #dialler, #messages {
+      clear: both;
+    }
+
+    #remote-video {
+      
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    -moz-box-shadow:  3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 20px #000;
+    box-shadow:       2px 2px 50px 10px #000;
+   
+    
+    
+    }
+    #local-video {
+     display: block;
+    padding-left: 0px;
+    /*width:  320px;
+    height: 240px;*/
+    max-height: 50%;
+    max-width: 50%;
+   z-index:1 ;
+    position: absolute;
+     -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 20px #000;
+  box-shadow:         3px 3px 70px 10px #000;
+   top: 0px;
+   left: 0px;
+    
+}
+
+    }
+     #localvidcontainer{
+      display: block-inline;
+      max-width: 100%;
+      max-height: 100%;
+      -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+    }
+
+    .navbutton{
+      height:60px;
+      width:60px;
+      z-index:1 ;
+      color: white;
+      -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 0.4s ease-in-out;
+    }
+
+    .navbutton:hover{
+      height:60px;
+      width:60px;
+      z-index:1 ;
+      -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform:  scale(2);
+    -ms-transform:  scale(2);
+    transform:  scale(2);
+    }
+
+
+ .glass{
+   background-image: url('white-circles-blue-background.jpg');
+   //background-image: url('http://www.misbbocconi.com/wp-content/uploads/2014/03/Blue-Background-Images-HD-Wallpaper.jpg');
+  // background-color: white;
+  height : 800px;
+    z-index: -1;
+    -webkit-filter: blur(8px) contrast(0.4) brightness(1.4);
+    -moz-filter: blur(8px) contrast(0.4) brightness(1.4);
+    -o-filter: blur(8px) contrast(0.4) brightness(1.4);
+     -ms-filter: blur(8px) contrast(0.4) brightness(1.4); 
+     filter : blur(8px); 
+     
+     
+     opacity:.9;
+     
+         }
+
+   #leftpanel{
+     top:0px;
+     left:0px;
+      position:absolute;
+      z-index: 1;
+      -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 4px 20px #000;
+  box-shadow:         3px 3px 70px 6px #000;
+  width: 0px;
+  height: 0px;
+
+    }
+
+    #panelcontainer{
+       padding-left:0px ;
+       
+    }
+
+   
+
+    #topcontrols{
+      display: block;
+      position: absolute;
+    
+      
+    }
+    #bottomcontrols{
+      display: block;
+      position:absolute;
+      
+    }
+
+    #pad2{
+      position: relative;
+      visibility: hidden;
+        z-index:1 ;
+    }
+    #pad1{
+      visibility: hidden;
+      position:relative;
+      max-height: 50% ;
+      max-width: 50% ;
+z-index:1 ;
+    }
+
+     #tiltup{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+     #tiltdown{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+     #tiltleft{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+     #tiltright{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+
+    #fwdButton{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+     #revButton{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+     #leftButton{
+      top:0px;
+      left:0px;
+      
+      position:absolute;
+    }
+     #rightButton{
+      top:0px;
+      left:0px;
+      position:absolute;
+    }
+    
+
+
